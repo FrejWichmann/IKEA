@@ -16,4 +16,12 @@ public Class Chair{
 	public boolean isSoftToSitOn(){
 		return softToSitOn;
 }
+
+	public int getNumberOfLegs(){
+		return numberOfLegs;
+	}
+
+	public void setNumberOfLegs(int numberOfLegs){
+		this.numberOfLegs = numberOfLegs;
+}
 }
