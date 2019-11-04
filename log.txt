@@ -1,0 +1,57 @@
+commit 254451a185f8c3a28d92fb8ec13f966678a5d5a7 (HEAD -> master, origin/master)
+Author: Johanna <svallingson@gmail.com>
+Date:   Mon Nov 4 14:02:31 2019 +0100
+
+    fixed LostLeg
+
+commit e3071c69056ba7186e965dedc0ff078abcae7bd1 (origin/testbranch)
+Author: Frej Wichmann <frejwichmann@gmail.com>
+Date:   Mon Nov 4 13:42:51 2019 +0100
+
+    new main
+
+commit 1dc6145659a7dde1698e2cc51792860721fffc30 (origin/fixLostALegMethod, fixLostALegMethod)
+Merge: db51963 a09e878
+Author: Johanna <svallingson@gmail.com>
+Date:   Mon Nov 4 13:27:55 2019 +0100
+
+    Merge branch 'master' of https://github.com/FrejWichmann/IKEA
+
+commit db51963a1fc14a879fb3a498042fd30530b9db67
+Author: Johanna <svallingson@gmail.com>
+Date:   Mon Nov 4 13:27:26 2019 +0100
+
+    lost A leg - method
+
+commit a09e8786c0b5ed351ba74b9cd00b5e39e023d17a
+Author: Frej Wichmann <frejwichmann@gmail.com>
+Date:   Mon Nov 4 13:26:55 2019 +0100
+
+    added extends product
+
+commit bff572bcf3c568f100631468cf2d93429e38de92
+Merge: f7b7d21 72bd7e7
+Author: Frej Wichmann <frejwichmann@gmail.com>
+Date:   Mon Nov 4 12:23:19 2019 +0100
+
+    merging designer and material field
+
+commit f7b7d21a0f4e036f5b0cf5ee411e07db1575c22b
+Author: Frej Wichmann <frejwichmann@gmail.com>
+Date:   Mon Nov 4 12:15:59 2019 +0100
+
+    m
+
+commit 72bd7e7b493b00668412d47dd24fb49365c748ee
+Author: Johanna <svallingson@gmail.com>
+Date:   Mon Nov 4 12:15:09 2019 +0100
+
+    Added field designer AND getter for designer
+
+commit 345a01a4214053848b16066670e0c42ca72ae6d9
+Merge: 2f537a8 65fa7c4
+Author: Frej Wichmann <frejwichmann@gmail.com>
+Date:   Tue Oct 29 15:47:30 2019 +0100
+
+    Merge branch 'master' of https://github.com/FrejWichmann/IKEA
+
