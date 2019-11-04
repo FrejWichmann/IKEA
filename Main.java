@@ -1,15 +1,22 @@
 public class Main{
+	private List<Chair> chairList = new ArrayList<>();
+
 	public static void main(String[] args){
-	List<Chair> chairList = new ArrayList<>();	
+		
+
 	
-	Chair chair = new Chair(4,"Solstolen Bengt",true);
-	chairList.add(chair1);	
-	
-	System.out.println("Is this chair soft to sit on? " + chair1.isSoftToSitOn());
+	System.out.println("Is this chair soft to sit on? " + getChair(0).isSoftToSitOn());
 	}
-	
-	
-	
+		
+	public void addNewChair(int numberOfLegs, String name, boolean softness){
+		Chair chair = new Chair(numberOfLegs,name,softness);
+		chairList.add(chair);
+
+	}
+	public Chair getChair(int index){
+		return chairlist.get(index);
+
+	}
 
 }
 
