@@ -37,8 +37,8 @@ public Class Chair{
 		 return designer;
 	}
 	
-	public void lostALeg(){
-		numberOfLegs-1;
+	public void lostALeg(int numberOfLostLegs){
+		this.numberOfLegs = numberOflegs - numberOfLostLegs;
 	 }
 	
 }
