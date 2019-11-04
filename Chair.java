@@ -3,15 +3,17 @@ public Class Chair{
 	private String name;
 	private boolean softToSitOn;
 	private String material;
+	private String designer;	
 
 	public Chair(){
 
 }
 
-	public Chair(int numberOfLegs, String name, boolean softToSitOn ){
+	public Chair(int numberOfLegs, String name, boolean softToSitOn, String designer ){
 		this.numberOfLegs = numberOfLegs;
 		this.name = name;
 		this.softToSitOn = softToSitOn;
+		this.designer = designer;
 }
 
 	public boolean isSoftToSitOn(){
@@ -24,9 +26,14 @@ public Class Chair{
 
 	public void setNumberOfLegs(int numberOfLegs){
 		this.numberOfLegs = numberOfLegs;
+
 	}
 	public void getMaterial(){
 		return material;
+
+}
+	public String getDesigner(){
+		 return designer;
 	}
 
 }
