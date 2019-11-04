@@ -35,5 +35,9 @@ public Class Chair{
 	public String getDesigner(){
 		 return designer;
 	}
-
+	
+	public void lostALeg(){
+		numberOfLegs-1;
+	 }
+	
 }
