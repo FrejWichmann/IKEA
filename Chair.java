@@ -2,6 +2,7 @@ public Class Chair{
 	private int numberOfLegs;
 	private String name;
 	private boolean softToSitOn;
+	private String material;
 
 	public Chair(){
 
@@ -23,5 +24,9 @@ public Class Chair{
 
 	public void setNumberOfLegs(int numberOfLegs){
 		this.numberOfLegs = numberOfLegs;
-}
+	}
+	public void getMaterial(){
+		return material;
+	}
+
 }
