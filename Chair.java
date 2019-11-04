@@ -5,7 +5,7 @@ public Class Chair{
 	private String material;
 	private String designer;	
 
-	public Chair(){
+	public Chair() extends Product{
 
 }
 
@@ -14,6 +14,7 @@ public Class Chair{
 		this.name = name;
 		this.softToSitOn = softToSitOn;
 		this.designer = designer;
+
 }
 
 	public boolean isSoftToSitOn(){
